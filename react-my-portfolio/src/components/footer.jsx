@@ -1,15 +1,16 @@
-import gitlogo from "../assets/Github.svg";
+import gitLogo from "../assets/Github.svg";
+import instagramLogo from "../assets/Instagram.svg";
 import "./footer.css";
 function Footer() {
   return (
     <>
       <footer>
         <div>
-          <a href="https://github.com/Elizabethcodes44" target="_blank">
-            <img src={gitlogo} className="logo" alt="Vite logo" />
+          <a href="https://github.com/Elizabethcodes44">
+            <img src={gitLogo} className="logo" alt="Vite logo" />
           </a>
-          <a href="" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
+          <a href="https://www.instagram.com/bukonla_s/x">
+            <img src={instagramLogo} className="logo react" alt="React logo" />
           </a>
         </div>
       </footer>
