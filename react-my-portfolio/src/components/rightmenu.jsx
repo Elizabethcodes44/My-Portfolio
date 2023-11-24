@@ -1,9 +1,12 @@
 import "./rightmenu.css";
+import ProfilePic from "../assets/Elizabeth.jpeg";
 function Rightmenu() {
   return (
     <>
-      <aside>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quam ducimus in, iusto ad officia at incidunt doloribus libero, et animi neque dolore a delectus illum corrupti asperiores quidem molestias.</p>
+      <aside className="aside-Container">
+        <img src={ProfilePic} className="Profile-Pic" alt="Profile-Pic" />
+
+        <button className="right-Button">PROJECTS</button>
       </aside>
     </>
   );

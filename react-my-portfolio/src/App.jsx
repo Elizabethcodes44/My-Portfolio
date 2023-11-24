@@ -2,6 +2,7 @@ import "./App.css";
 import Main from "./components/Main";
 import Header from "./components/header";
 import Rightmenu from "./components/rightmenu";
+import Footer from "./components/footer"
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
         <Header></Header>
         <Main></Main>
         <Rightmenu></Rightmenu>
+        <Footer></Footer>
       </div>
     </>
   );
