@@ -15,8 +15,9 @@ a {
     width: 30px;
     height:30px;
 }
-Link {
+.link {
     color: black;
-    display: grid;
-    place-content: end;
+    cursor:pointer;
+    
+    
 }

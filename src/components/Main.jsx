@@ -1,4 +1,5 @@
 import "./Main.css";
+
 function Main() {
   return (
     <>
@@ -18,6 +19,7 @@ function Main() {
               dynamic web applications.
             </strong>
           </p>
+          
         </div>
       </main>
     </>

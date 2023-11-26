@@ -43,7 +43,7 @@ function Footer() {
                 target="_blank"
               />
             </a>
-            <Link to="/form">Let`s Chat</Link>
+            <Link className="link" to="/form">Let`s Chat</Link>
           </div>
         </div>
       </footer>
