@@ -9,9 +9,7 @@ img {
     width: 150px;
     height: 200px;
 }
-.right-Button {
-    background-color: wheat;
-    color:black;
-    font-size: 20px;
-    margin-left:2px;
+.aside-Container {
+    place-content: center;
+    text-align:center;
 }

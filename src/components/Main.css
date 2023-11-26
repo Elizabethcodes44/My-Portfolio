@@ -5,9 +5,9 @@ main{
 
 }
 .Introduction {
-    outline: 5px solid;
     margin-left: 50px;
     margin-top: 50px;
+    
 }
 p {
     margin-top: 50px;
@@ -18,21 +18,19 @@ p {
     
 
 }
-button {
-    margin-top: 50px;
-    height: 40px;
-    width: 150px;
-    background-color: #2c5d63;
-    color: wheat;
-    place-items: center;
-    margin-left: 200px;
-}
+
+
 h3 {
     color: wheat;
     font-family: Times, "Times New Roman", Georgia, serif;
     font-size: 40px;
 }
 h1 {
+    color: white;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 50px;
+}
+h2 {
     color: white;
     font-family: Times, "Times New Roman", Georgia, serif;
     font-size: 50px;

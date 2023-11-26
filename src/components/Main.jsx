@@ -7,6 +7,7 @@ function Main() {
           <h3>Hello, I`m </h3> <h1>Elizabeth Kujore</h1>{" "}
           <h3> A FULL-STACK Developer</h3>
           <p>
+           
             <strong>
               {" "}
               With expertise in both front-end and back-end web development, I
@@ -17,7 +18,6 @@ function Main() {
               dynamic web applications.
             </strong>
           </p>
-          <button><strong>CONTACT ME</strong></button>
         </div>
       </main>
     </>
