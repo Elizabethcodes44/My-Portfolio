@@ -3,6 +3,7 @@ aside {
   background-color: black;
   display: grid;
   place-content: center;
+  overflow-y: scroll;
 }
 img {
   width: 150px;
