@@ -14,7 +14,9 @@ function Header() {
               </p>
             </li>
             <li>
-              <p className="par">PROJECTS</p>
+              <p className="par" onClick={() => navigate("/projects")}>
+                PROJECTS
+              </p>
             </li>
             <li>
               <p className="par">CONTACT</p>

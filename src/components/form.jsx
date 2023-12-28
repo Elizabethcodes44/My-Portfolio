@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { useNavigate } from 'react-router-dom'
+import "../components/form.css";
+import { useNavigate } from 'react-router-dom';
 const initialState = {
   name: "",
   phoneno: "",

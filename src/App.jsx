@@ -5,6 +5,7 @@ import Header from "./components/header";
 import Rightmenu from "./components/rightmenu";
 import Footer from "./components/footer";
 import Form from "./components/form";
+import Projects from "./components/projects.jsx";
 function App() {
   return (
     <>
@@ -13,7 +14,7 @@ function App() {
         <Main></Main>
         <Routes>
           <Route path="/" element={<Rightmenu />} />
-
+          <Route path="/projects" element={<Projects />} />
           <Route path="/form" element={<Form />} />
         </Routes>
         <Footer></Footer>

@@ -4,6 +4,7 @@ aside {
   display: grid;
   place-content: center;
   overflow-y: scroll;
+  
 }
 img {
   width: 150px;
@@ -12,6 +13,7 @@ img {
 .aside-Container {
   place-content: center;
   text-align: center;
+
   
 }
 .Logo2 {
