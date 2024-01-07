@@ -5,18 +5,14 @@ import "./About.css";
 function About() {
   return (
     <div className="About">
-      <div>
+      <div className="aboutme">
         <h3>Hello, I`m </h3> <h1>Elizabeth Kujore</h1>{" "}
         <h3> A FULL-STACK Developer</h3>
         <p>
           <strong>
             {" "}
-            With expertise in both front-end and back-end web development, I
-            bring a comprehensive skill set to the table. From designing user
-            interfaces and implementing features to managing databases and
-            server-side logic, I thrive in handling the entire development
-            process. My versatility ensures the creation and maintenance of
-            dynamic web applications.
+            I am a Junior Full Stack Developer based in Turkey, passionate about continuous learning and skill expansion. I have a diverse skill set ranging from front-end (HTML, CSS, JavaScript, React JS) to back-end (Node.js, Express) development. With a unique perspective from living in Turkey, I am driven to contribute to the global tech community, valuing diversity and collaboration. Eager to connect with fellow professionals, I thrive on networking and engaging in discussions. Outside of coding, I love exploring new places, drawing creativity from different cultures. Additionally, I enjoy making clothes for my family, emphasizing craftsmanship and attention to detail—values that I bring to my coding projects. Open to relocation, I am seeking opportunities to contribute to innovative projects aligned with my values. If you're looking for a passionate, adaptable, and collaborative junior full-stack developer, I invite you to connect and build something amazing together. 
+            
           </strong>
         </p>
       </div>

@@ -9,8 +9,10 @@
 body {
   font-family: 'Roboto', Arial, sans-serif;
   background-image: url("./assets/backgroundhome.jpg");
-
   background-size: cover;
+  background-attachment: fixed;
+  margin: 0; /* Remove default margin for better full-screen effect */
+  padding: 0; /* Remove default padding for better full-screen effect */
 }
 
 .app-Container {
@@ -26,17 +28,17 @@ body {
     "footer";
 
   
-  @media only screen and (max-width: 768px) {
-   
-    grid-template-columns: 1fr;
-    grid-template-rows: 90px 1fr auto;
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
-  }
-  @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 600px) {
+      /* Adjust styles for screens up to 600px wide */
     
-    grid-template-rows: 60px 1fr auto;
+      body {
+        font-size: 14px; /* Example: Decrease font size for smaller screens */
+      }
+    
+      .responsive-image {
+        max-width: 100%; /* Example: Make images take the full width of the screen */
+        height: auto;    /* Maintain aspect ratio */
+      }
+    
   }
 }

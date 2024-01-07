@@ -1,5 +1,7 @@
 header {
   grid-area: header;
+  
+
  
 }
 nav {
@@ -18,7 +20,7 @@ nav > ul {
 .initials {
   color: black;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: wheat;
   padding: 5px;
   margin: 5px;
   height: 80px;
@@ -36,7 +38,7 @@ li {
   cursor: pointer;
 }
 .par {
-  color: yellow; /* Adjust text color as needed */
+  color: wheat; /* Adjust text color as needed */
   margin: 0; /* Remove default margin */
   cursor: pointer;
   font-size: 30px;
