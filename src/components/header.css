@@ -1,6 +1,6 @@
 header {
   grid-area: header;
-  background-color: #2c5d63;
+ 
 }
 nav {
   width: 100%;
@@ -14,21 +14,11 @@ nav > ul {
   grid-auto-flow: column;
   justify-self: end;
 }
-/* .initials {
-    color: white;
-    border-radius: 50%; 
-    background-color: black;
-    padding: 5px;
-    margin: 5px;
-    height: 80px;
-    width: 80px;
-    display: grid;
-    place-content: center;
-  }  */
+
 .initials {
-  color: white;
+  color: black;
   border-radius: 50%;
-  background-color: black;
+  background-color: yellow;
   padding: 5px;
   margin: 5px;
   height: 80px;
@@ -41,13 +31,16 @@ li {
   list-style: none;
   
 
-  color: black;
   margin-inline: 10px;
   block-size: none;
   cursor: pointer;
 }
 .par {
-  color: black; /* Adjust text color as needed */
+  color: yellow; /* Adjust text color as needed */
   margin: 0; /* Remove default margin */
   cursor: pointer;
+  font-size: 30px;
+}
+h2 {
+  font-size: 50px
 }

@@ -1,8 +1,9 @@
 footer {
-    background-color: #2c5d63;
+   
     grid-area: footer;
     display: grid;
     place-items: center;
+
     
 }
 a {

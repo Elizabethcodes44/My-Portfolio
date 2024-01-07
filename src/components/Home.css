@@ -1,0 +1,29 @@
+main {
+  grid-area: main;
+  display: grid;
+  place-content: center;
+}
+.mypicture {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+  .Homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+  }
+
+.Homepage > p {
+  margin-top: 10px;
+  color: white;
+  font-size: 30px;
+}
+.Homepage > h3 {
+  color: yellow;
+  font-size: 50px;
+}

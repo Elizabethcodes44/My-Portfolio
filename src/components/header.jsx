@@ -8,9 +8,16 @@ function Header() {
         <nav>
           <h2 className="initials">EK</h2>
           <ul className="list">
-            <li>
+          <li>
               <p className="par" onClick={() => navigate("/")}>
+                {" "}
                 HOME
+              </p>
+            </li>
+            <li>
+              <p className="par" onClick={() => navigate("/About")}>
+                {" "}
+                ABOUT ME
               </p>
             </li>
             <li>
@@ -18,8 +25,11 @@ function Header() {
                 PROJECTS
               </p>
             </li>
+
             <li>
-              <p className="par">CONTACT</p>
+              <p className="par" onClick={() => navigate("/contact")}>
+                CONTACT
+              </p>
             </li>
           </ul>
         </nav>

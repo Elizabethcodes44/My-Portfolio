@@ -2,7 +2,7 @@ import gitLogo from "../assets/Github.svg";
 import instagramLogo from "../assets/Instagram.svg";
 import linkedinLogo from "../assets/Linkedin.svg";
 import twitterLogo from "../assets/Twitter.svg";
-import { Link } from "react-router-dom";
+
 import "./footer.css";
 function Footer() {
   return (
@@ -43,7 +43,6 @@ function Footer() {
                 target="_blank"
               />
             </a>
-            <Link className="link" to="/form">Let`s Chat</Link>
           </div>
         </div>
       </footer>

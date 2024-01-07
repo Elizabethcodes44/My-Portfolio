@@ -1,36 +1,36 @@
 .projects-images {
-    background-color: black;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-  }
   
-  .projects-images div {
-    display: grid;
-    grid-template-rows: auto 1fr; /* Separate the image and link into two rows */
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  img {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 5px; /* Add border-radius for a rounded look */
-    border: 2px solid #3498db;
-  }
-  
-  a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-  }
-  
-  /* Additional styling for better visibility */
-  .projects-images div a {
-    padding: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
 
+.projects-images div {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Separate the image and link into two rows */
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
-  }
-  
+.project-image {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 5px; /* Add border-radius for a rounded look */
+  border: 5px solid #2c5d63;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* Additional styling for better visibility */
+.projects-images div a {
+  padding: 5px;
+}
+.p1 {
+  margin: 10px;
+}
