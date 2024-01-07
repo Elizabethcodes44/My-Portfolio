@@ -25,14 +25,18 @@ body {
     "main"
     "footer";
 
-  /* Responsive styling using media queries */
+  
   @media only screen and (max-width: 768px) {
-    /* Adjust the grid layout for small screens */
+   
     grid-template-columns: 1fr;
     grid-template-rows: 90px 1fr auto;
     grid-template-areas:
       "header"
       "main"
       "footer";
+  }
+  @media only screen and (max-width: 480px) {
+    
+    grid-template-rows: 60px 1fr auto;
   }
 }
