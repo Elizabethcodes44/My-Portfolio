@@ -4,15 +4,18 @@
   padding-right: 150px;
 }
 img {
-  width: 150px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
 }
 
 .Logo2 {
   display: inline-block;
+  margin-inline: 20px;
 }
-.Techstack {
-  margin: 10px;
+.Techstack > h2 {
+  margin-top: 60px;
+  color: white;
 }
 h3 {
   color: white;
@@ -25,4 +28,19 @@ h1 {
 .aboutme > p{
   color: wheat;
   margin-top: 20px;
+  line-height: 2;
+}
+.node {
+  margin-right: 10px;
+}
+.sql {
+  margin-right: 10px;
+}
+.express {
+  margin-right: 10px;
+}
+.linux {
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
 }
