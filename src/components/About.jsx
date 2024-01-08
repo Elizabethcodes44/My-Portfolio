@@ -4,7 +4,7 @@ import reactLogo from "../assets/react.svg";
 import sqlLogo from "../assets/sql.png";
 import javascriptLogo from "../assets/javascript.svg";
 import nodeLogo from "../assets/nodejs.svg";
-
+import linuxLogo from "../assets/linux.gif";
 import expressLogo from "../assets/express-js.svg";
 import "./About.css";
 function About() {
@@ -48,7 +48,7 @@ function About() {
           <img src={reactLogo} className="REACT" alt="reactLogo" />
           <img src={sqlLogo} className="sql" alt="sqlLogo" />
           <img src={expressLogo} className="express" alt="htmlLogo" />
-         
+          <img src={linuxLogo} className="linux" alt="linuxLogo" />
         </div>
       </div>
     </div>
