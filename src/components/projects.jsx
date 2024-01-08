@@ -7,7 +7,7 @@ import greengrocers from "../assets/greengrocers.jpg";
 import dashboard from "../assets/dashboardimage.jpg";
 function Projects() {
   return (
-    <div className="projects-images">
+    <div className="projects">
       <div>
         <img src={spotify} className="project-image" alt="spotify-image" />
         <a href="https://github.com/Elizabethcodes44/html-spotify-challenge">

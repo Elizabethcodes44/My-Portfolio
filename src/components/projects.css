@@ -1,6 +1,8 @@
-.projects-images {
+.projects {
   
-  padding: 10px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
@@ -14,15 +16,15 @@
 }
 
 .project-image {
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   border-radius: 5px; /* Add border-radius for a rounded look */
   border: 5px solid #2c5d63;
 }
 
 a {
-  color: white;
+  color: yellow;
   text-decoration: none;
   margin: 10px;
 }
@@ -33,4 +35,5 @@ a {
 }
 .p1 {
   margin: 10px;
+  color: white;
 }
