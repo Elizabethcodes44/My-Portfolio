@@ -23,17 +23,17 @@
   border: 5px solid #2c5d63;
 }
 
-a {
-  color: yellow;
-  text-decoration: none;
-  margin: 10px;
-}
+
 
 /* Additional styling for better visibility */
-.projects-images div a {
-  padding: 5px;
+ a {
+
+  color: yellow;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: 25px;
 }
 .p1 {
-  margin: 10px;
+  margin: 20px;
   color: white;
 }
