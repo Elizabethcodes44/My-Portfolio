@@ -4,8 +4,8 @@
   padding-right: 150px;
 }
 img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin-top: 20px;
 }
 
@@ -31,16 +31,19 @@ h1 {
   line-height: 2;
 }
 .node {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .sql {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .express {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .linux {
   margin-left: 10px;
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
+}
+.REACT {
+  margin-right: 20px;
 }

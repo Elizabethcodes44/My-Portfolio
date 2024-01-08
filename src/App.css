@@ -32,7 +32,7 @@ body {
       /* Adjust styles for screens up to 600px wide */
     
       body {
-        font-size: 14px; /* Example: Decrease font size for smaller screens */
+        font-size: 20px; /* Example: Decrease font size for smaller screens */
       }
     
       .responsive-image {
