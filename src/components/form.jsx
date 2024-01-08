@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../components/form.css";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 const initialState = {
   name: "",
   phoneno: "",
@@ -14,19 +14,20 @@ function Form() {
   const submitForm = (event) => {
     event.preventDefault();
     console.log(form);
-    navigate('/form')
+    navigate("/form");
 
     setForm(initialState);
   };
   const handleChange = (event) => {
     const { name, type, value } = event.target;
-    if (type === 'text') {
-        setForm({ ...form, [name]: value })
-      } 
-      console.log(event.target)
+    if (type === "text") {
+      setForm({ ...form, [name]: value });
+    }
+    console.log(event.target);
   };
 
   return (
+    <div className="contact">
     <form className="form" onSubmit={submitForm}>
       <h3>Let`s Chat</h3>
       <h6>
@@ -40,11 +41,52 @@ function Form() {
             onChange={(event) => handleChange(event)}
             type="text"
             name="name"
-            value=""
+            value={form.name}
+            required
           />
         </label>
+        <label>
+          Phone number
+          <input
+            onChange={(event) => handleChange(event)}
+            type="text"
+            name=""
+            value={form.phoneno}
+            placeholder="12345"
+            required
+          />
+        </label>
+        <label>
+          E-mail
+          <input
+            onChange={(event) => handleChange(event)}
+            type="text"
+            name="email"
+            value={form.email}
+            placeholder="please enter a valid e-mail"
+            required
+          />
+        </label>
+        <label>
+          Message
+          <input className="message"
+            onChange={(event) => handleChange(event)}
+            type="text"
+            name="message"
+            value={form.message}
+            placeholder="Have a message or comment ?"
+            
+          />
+        </label>
+        <input 
+          onChange={(event) => handleChange(event)}
+          className="form__submit"
+          type="submit"
+          value="submit"
+        />
       </div>
     </form>
+    </div>
   );
 }
 export default Form;
