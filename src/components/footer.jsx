@@ -1,7 +1,7 @@
-import gitLogo from "../assets/Github.svg";
-import instagramLogo from "../assets/Instagram.svg";
-import linkedinLogo from "../assets/Linkedin.svg";
-import twitterLogo from "../assets/Twitter.svg";
+import gitLogo from "../assets/github1.svg";
+import instagramLogo from "../assets/instagram1.svg";
+import linkedinLogo from "../assets/linkedin.svg";
+import twitterLogo from "../assets/twitterx.svg";
 
 import "./footer.css";
 function Footer() {
