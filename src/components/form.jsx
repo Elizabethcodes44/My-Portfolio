@@ -14,7 +14,7 @@ function Form() {
   const submitForm = (event) => {
     event.preventDefault();
     console.log(form);
-    navigate("/form");
+    navigate("/contact");
 
     setForm(initialState);
   };
