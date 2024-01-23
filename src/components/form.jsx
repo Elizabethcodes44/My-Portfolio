@@ -50,7 +50,7 @@ function Form() {
           <input
             onChange={(event) => handleChange(event)}
             type="text"
-            name=""
+            name="phoneno"
             value={form.phoneno}
             placeholder="12345"
             required
