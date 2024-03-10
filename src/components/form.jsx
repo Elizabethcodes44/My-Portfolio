@@ -19,12 +19,10 @@ function Form() {
     setForm(initialState);
   };
   const handleChange = (event) => {
-    const { name, type, value } = event.target;
-    if (type === "text") {
-      setForm({ ...form, [name]: value });
-    }
-    console.log(event.target);
+    const { name, value } = event.target;
+    setForm({ ...form, [name]: value });
   };
+  
 
   return (
     <div className="contact">
@@ -69,14 +67,15 @@ function Form() {
         </label>
         <label>
           Message
-          <input className="message"
+          <textarea
             onChange={(event) => handleChange(event)}
-            type="text"
+            value = {form.message}
+            type = "text"
             name="message"
-            value={form.message}
-            placeholder="Have a message or comment ?"
-            
-          />
+            placeholder="write a message here"
+            cols="30"
+            rows="10">
+            </textarea>
         </label>
         <input 
           onChange={(event) => handleChange(event)}
