@@ -8,11 +8,12 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  background-image: url("./assets/backgroundhome.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: black;
+  
   margin: 0; /* Remove default margin for better full-screen effect */
   padding: 0; /* Remove default padding for better full-screen effect */
+  height: 100%;
+  
 }
 
 .app-Container {
@@ -21,7 +22,7 @@ body {
  
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 90px 1fr;
+  grid-template-rows: 90px 1fr 90px;
   grid-template-areas:
     "header"
     "main"
