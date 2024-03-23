@@ -1,34 +1,56 @@
-main {
+.main {
   grid-area: main;
   display: grid;
   place-content: center;
 }
+
 .mypicture {
   height: 150px;
   width: 150px;
   border-radius: 50%;
 }
 
-  .Homepage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  
-  }
+.Homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 .Homepage > p {
   margin-top: 10px;
   color: greenyellow;
   font-size: 25px;
 }
+
 .Homepage > h3 {
   color: wheat;
   font-size: 40px;
 }
+
 h5 {
   color: wheat;
   margin-top: 10px;
   font-size: 25px;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .mypicture {
+    height: 100px; /* Adjust image height for smaller screens */
+    width: 100px; /* Adjust image width for smaller screens */
+  }
+
+  .Homepage > p {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .Homepage > h3 {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  h5 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
 }

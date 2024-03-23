@@ -1,5 +1,4 @@
 .projects {
-  
   padding-top: 20px;
   padding-right: 50px;
   padding-left: 50px;
@@ -23,17 +22,32 @@
   border: 5px solid #2c5d63;
 }
 
-
-
 /* Additional styling for better visibility */
- a {
-
+a {
   color: yellow;
   text-decoration: none;
   margin-top: 5px;
   font-size: 25px;
 }
+
 .p1 {
   margin: 20px;
   color: white;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 20px; /* Adjust padding for smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust grid layout for smaller screens */
+  }
+
+  .project-image {
+    height: 200px; /* Adjust image height for smaller screens */
+    width: 200px; /* Adjust image width for smaller screens */
+  }
+
+  a {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
 }

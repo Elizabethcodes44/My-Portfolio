@@ -3,6 +3,7 @@
   padding-left: 150px;
   padding-right: 150px;
 }
+
 img {
   width: 80px;
   height: 80px;
@@ -13,10 +14,12 @@ img {
   display: inline-block;
   margin-inline: 20px;
 }
+
 .Techstack > h2 {
   margin-top: 60px;
   color: white;
 }
+
 h3 {
   color: white;
   font-size: 50px;
@@ -25,25 +28,78 @@ h3 {
 h1 {
   color: wheat;
 }
-.aboutme > p{
+
+.aboutme > p {
   color: wheat;
   margin-top: 20px;
   line-height: 2;
 }
+
 .node {
   margin-right: 20px;
 }
+
 .sql {
   margin-right: 20px;
 }
+
 .express {
   margin-right: 20px;
 }
+
 .linux {
   margin-left: 10px;
   width: 65px;
   height: 65px;
 }
+
 .REACT {
   margin-right: 20px;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .About {
+    padding-left: 50px; /* Adjust padding for smaller screens */
+    padding-right: 50px; /* Adjust padding for smaller screens */
+  }
+
+  img {
+    width: 50px; /* Adjust width for smaller screens */
+    height: 50px; /* Adjust height for smaller screens */
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .Logo2 {
+    margin-inline: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .Techstack > h2 {
+    margin-top: 30px; /* Adjust margin for smaller screens */
+  }
+
+  h3 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  h1 {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  .aboutme > p {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .node,
+  .sql,
+  .express,
+  .REACT {
+    margin-right: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .linux {
+    margin-left: 5px; /* Adjust margin for smaller screens */
+    width: 50px; /* Adjust width for smaller screens */
+    height: 50px; /* Adjust height for smaller screens */
+  }
 }
